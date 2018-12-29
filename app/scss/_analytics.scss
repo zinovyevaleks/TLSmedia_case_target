@@ -1,0 +1,20 @@
+.analytics {
+    background: -webkit-linear-gradient(90deg, #eb3349b6 0%, #f45c436b 100%);
+    background: -moz-linear-gradient(90deg, #eb3349b6 0%, #f45c436b 100%);
+    background: -o-linear-gradient(90deg, #eb3349b6 0%, #f45c436b 100%);
+    background: -ms-linear-gradient(90deg, #eb3349b6 0%, #f45c436b 100%);
+    background: linear-gradient(0deg, #eb3349b6 0%, #f45c436b 100%);
+
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        color: #ff3048;
+        font-size: 21px;
+        font-weight: 700;
+        margin-top: 80px;
+        margin-bottom: 21px;
+    }
+
+    p {
+        text-align: justify;
+    }
+}

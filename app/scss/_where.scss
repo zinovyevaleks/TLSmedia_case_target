@@ -1,0 +1,72 @@
+.where {
+    background-image: url("../img/carousel_bg.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.24);
+
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        color: #ffffff;
+        font-size: 36px;
+        font-weight: 700;
+        margin-top: 52px;
+        margin-bottom: 30px;
+    }
+
+    p {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+        margin-bottom: 109px;
+    }
+
+    .carousel {
+        box-shadow: 0px 2px 32px 0px rgba(0, 0, 0, 0.24);
+
+        &-control-prev-icon {
+            background-image: url(../img/Left_arrow.png);
+        }
+
+        &-control-next-icon {
+            background-image: url(../img/Right_arrow.png);
+        }
+    }
+
+
+
+    .carousel-indicators {
+        top: -50px;
+        bottom: 0;
+
+        li {
+            display: -webkit-flex;
+            display: -ms-flex;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 700;
+            text-indent: 0;
+            width: 2000px;
+
+            background-color: transparent;
+            cursor: pointer;
+        }
+
+        .active {
+            color: #ff3048;
+            font-size: 21px;
+            font-weight: 700;
+        }
+    }
+
+    .last-p {
+        font-size: 16px;
+font-weight: 400;
+        color: #000;
+        margin-top: 65px;
+        margin-bottom: 90px;
+    }
+}

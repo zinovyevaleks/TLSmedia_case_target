@@ -1,0 +1,39 @@
+.register-audit-one {
+    background-color: #282828;
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        color: #ffffff;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        margin-top: 75px;
+    }
+
+    span {
+        color: #ff3048;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .btn {
+        background: -webkit-linear-gradient(90deg, #de6262 0%, #ffb88c 100%);
+        background: -moz-linear-gradient(90deg, #de6262 0%, #ffb88c 100%);
+        background: -o-linear-gradient(90deg, #de6262 0%, #ffb88c 100%);
+        background: -ms-linear-gradient(90deg, #de6262 0%, #ffb88c 100%);
+        background: linear-gradient(0deg, #de6262 0%, #ffb88c 100%);
+        box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.21);
+        border: none;
+        border-radius: 50px;
+        width: 264px;
+        height: 57px;
+        color: #f7f7f7;
+        font-size: 14px;
+        font-weight: 700;
+        margin-top: 30px;
+        margin-bottom: 72px;
+    }
+}
