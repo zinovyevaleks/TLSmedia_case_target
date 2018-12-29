@@ -1,9 +1,5 @@
 .analytics {
-    background: -webkit-linear-gradient(90deg, #eb3349b6 0%, #f45c436b 100%);
-    background: -moz-linear-gradient(90deg, #eb3349b6 0%, #f45c436b 100%);
-    background: -o-linear-gradient(90deg, #eb3349b6 0%, #f45c436b 100%);
-    background: -ms-linear-gradient(90deg, #eb3349b6 0%, #f45c436b 100%);
-    background: linear-gradient(0deg, #eb3349b6 0%, #f45c436b 100%);
+    background-color: #FBF2F1;
 
     h3 {
         font-family: 'Montserrat', sans-serif;
@@ -16,5 +12,28 @@
 
     p {
         text-align: justify;
+    }
+
+    .circle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Montserrat', sans-serif;
+        color: #ff3048;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 50%;
+        border-width: 5px;
+        border-style: solid;
+        height: 150px;
+
+        &-description {
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            color: #000000;
+            font-weight: 700;
+            text-align: center;
+            margin-top: 31px;
+        }
     }
 }
