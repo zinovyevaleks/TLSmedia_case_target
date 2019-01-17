@@ -48,6 +48,34 @@ b, strong {
 	font-weight: bold;
 }
 
+.btn {
+	width: 264px;
+	height: 57px;
+	background-image: linear-gradient(0.0deg, #de6262 0%, #ffb88c 100%);
+	border: none;
+	border-radius: 41.0px;
+	color: #f7f7f7;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 22px;
+
+
+	&:hover {
+		cursor: pointer;
+		color: #f7f7f7;
+	}
+
+	&:active {
+		background-color: #ce2029;
+		background-image: none;
+		outline: none;
+	}
+
+	&:focus {
+		outline: none;
+	}
+}
+
 
 
 @import "_header";

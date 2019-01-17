@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<!-- <base href="/"> -->
 
-	<title>Таргетированная реклама</title>
+	<title>Контекстная реклама</title>
 	<meta name="description" content="">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -155,7 +155,9 @@
 				<div class="col-8 text-center">
 					<p>Пройдите аудит рекламной компании по <span>113</span> параметрам
 						всего <span>за 1000 рублей</span> и сделайте свою рекламную компани эффективнее</p>
-					<button class="btn" type="button" name="button">Записаться на аудит</button>
+
+							<a href="#registerAudit" class="btn anchor_link" role="button">Записаться на аудит</a>
+
 				</div>
 			</div>
 		</div>
@@ -323,7 +325,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="register">
+	<section class="register" id="registerAudit">
 		<div class="register-header">
 			<div class="container">
 				<div class="row">
@@ -332,10 +334,15 @@
 					</div>
 				</div>
 				<div class="row justify-content-center">
-					<form class="text-center">
+					<form class="text-center" id="auditForm">
+						<!-- Hidden Required Fields -->
+						<input type="hidden" name="project_name" value="TLSmedia - кейс Контекстная реклама">
+						<input type="hidden" name="admin_email" value="zakaz@tls.media">
+						<input type="hidden" name="form_subject" value="Заявка на аудит">
+						<!-- END Hidden Required Fields -->
 						<div class="form-group">
-							<input type="tel" class="form-control" name="Телефон" placeholder="Ваш номер телефона">
-							<small class="form-text">После того как вы оставите заявку, наш менедджер свяжиться с вами в ближайшее время</small>
+							<input type="tel" class="form-control" name="Телефон" placeholder="Ваш номер телефона" required>
+							<small class="form-text">После того как вы оставите заявку, наш менеджер свяжиться с вами в ближайшее время</small>
 						</div>
 						<button type="submit" class="btn">Записаться на аудит</button>
 					</form>
@@ -364,7 +371,13 @@
 				</div>
 			</div>
 			<div class="row justify-content-center">
-				<form class="text-center">
+				<form class="text-center" id='mailSubscription'>
+					<!-- Hidden Required Fields -->
+					<input type="hidden" name="project_name" value="TLSmedia - кейс Контекстная реклама">
+					<input type="hidden" name="admin_email" value="zakaz@tls.media">
+					<input type="hidden" name="form_subject" value="Новая подписка на рассылку">
+					<!-- END Hidden Required Fields -->
+
 					<div class="form-group">
 						<input type="email" class="form-control" name="Email" placeholder="Ваш Email">
 					</div>
