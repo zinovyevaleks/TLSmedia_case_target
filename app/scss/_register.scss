@@ -1,62 +1,60 @@
 .register {
-  .register-header {
-    background-image: url("../img/texture_bg.jpg");
-    background-size: cover;
-    color: #fff;
+    .register-header {
+        color: #141414;
 
-    h4 {
-      font-family: 'Montserrat', sans-serif;
-      color: #ffffff;
-      font-size: 21px;
-      font-weight: 700;
-      margin-top: 52px;
-      margin-bottom: 23px;
+        h4 {
+            font-family: 'Montserrat', sans-serif;
+            color: #141414;
+            font-size: 21px;
+            font-weight: 700;
+            margin-top: 52px;
+            margin-bottom: 23px;
+        }
+
+        .form-text {
+            font-family: 'Raleway', sans-serif;
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 400;
+        }
+
+        input {
+            text-align: center;
+        }
+
+        .btn {
+            background: -webkit-linear-gradient(90deg, #de6262 0%, #ffb88c 100%);
+            background: -moz-linear-gradient(90deg, #de6262 0%, #ffb88c 100%);
+            background: -o-linear-gradient(90deg, #de6262 0%, #ffb88c 100%);
+            background: -ms-linear-gradient(90deg, #de6262 0%, #ffb88c 100%);
+            background: linear-gradient(0deg, #de6262 0%, #ffb88c 100%);
+            box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.21);
+            width: 264px;
+            height: 57px;
+            border: none;
+            border-radius: 50px;
+            font-family: 'Raleway', sans-serif;
+            color: #f7f7f7;
+            font-size: 14px;
+            font-weight: 700;
+            margin-top: 23px;
+            margin-bottom: 42px;
+        }
     }
 
-    .form-text {
-      font-family: 'Raleway', sans-serif;
-color:  #ffffff;
-font-size: 13px;
-      font-weight: 400;
-    }
+    .register-content {
+        p {
+            margin-top: 43px;
+            font-family: 'Montserrat', sans-serif;
+            color: #141414;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 25px;
+            text-align: center;
+        }
 
-    input {
-      text-align: center;
+        .red-p {
+            color: #ff3048;
+        }
     }
-
-    .btn {
-      background: -webkit-linear-gradient(90deg, #de6262 0%, #ffb88c 100%);
-      background: -moz-linear-gradient(90deg, #de6262 0%, #ffb88c 100%);
-      background: -o-linear-gradient(90deg, #de6262 0%, #ffb88c 100%);
-      background: -ms-linear-gradient(90deg, #de6262 0%, #ffb88c 100%);
-      background: linear-gradient(0deg, #de6262 0%, #ffb88c 100%);
-      box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.21);
-      width: 264px;
-      height: 57px;
-      border: none;
-      border-radius: 50px;
-      font-family: 'Raleway', sans-serif;
-      color: #f7f7f7;
-      font-size: 14px;
-      font-weight: 700;
-      margin-top: 23px;
-      margin-bottom: 42px;
-    }
-  }
-
-  .register-content {
-    p {
-      margin-top: 43px;
-      font-family: 'Montserrat', sans-serif;
-      color: #141414;
-      font-size: 18px;
-      font-weight: 400;
-      line-height: 25px;
-      text-align: center;
-    }
-
-    .red-p {
-      color: #ff3048;
-    }
-  }
 }
