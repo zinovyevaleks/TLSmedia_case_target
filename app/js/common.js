@@ -18,7 +18,8 @@ $(function() {
             dataLayer.push({
                 'event': 'targetzayavka1'
             });
-			alert("Спасибо, мы скоро свяжемся с Вами!");
+			//alert("Спасибо, мы скоро свяжемся с Вами!");
+            window.location.href = "https://tls.media/TLSmedia-thanx/"
 			setTimeout(function() {
 				// Done Functions
 				th.trigger("reset");
@@ -38,7 +39,8 @@ $(function() {
             dataLayer.push({
                 'event': 'targetzayavka2'
             });
-			alert("Спасибо, мы скоро свяжемся с Вами!");
+			//alert("Спасибо, мы скоро свяжемся с Вами!");
+            window.location.href = "https://tls.media/TLSmedia-thanx/"
 			setTimeout(function() {
 				// Done Functions
 				th.trigger("reset");
